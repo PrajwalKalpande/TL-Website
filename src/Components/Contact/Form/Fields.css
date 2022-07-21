@@ -1,0 +1,110 @@
+.fields .field {
+  width: 100%;
+  height: 12vh;
+  padding: 10px;
+  outline: white;
+  border-radius: 3vh;
+  border: 2px solid #9cdef4;
+  background-color: dodgerblue;
+}
+.fields .message {
+  width: 100%;
+  outline: white;
+  border-radius: 3vh;
+  border: 2px solid #9cdef4;
+  background-color: dodgerblue;
+}
+.fields .form-group {
+  display: flex;
+  overflow: hidden;
+}
+.fields .form-control-lg {
+  font-size: large;
+  font-weight: 600;
+}
+.fields .fa {
+  font-size: medium;
+}
+.fields .data {
+  outline: none;
+}
+.fields .field:focus {
+  border: 2px solid #b8cfe5;
+}
+.fields form {
+  margin: 7vh 5vw 10vh 5vw;
+  min-width: 25rem;
+  width: 25vw;
+}
+.fields form .message .form-control {
+  padding: 0.5rem 1.8rem;
+}
+.fields form ::placeholder {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #9cdef4;
+  position: relative;
+  left: 0;
+}
+.fields form input, .fields form textarea {
+  font-family: sans-serif;
+  border: 0;
+  outline: none;
+  background-color: dodgerblue;
+  caret-color: #9cdef4;
+  color: #9cdef4;
+}
+.fields form .icon {
+  height: 9vh;
+  margin-top: 2vh;
+  margin-left: 1vh;
+  color: white;
+  text-align: center;
+}
+.fields .send-button {
+  margin-top: 15px;
+  height: 8vh;
+  min-height: 6vh;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.fields .alt-send-button {
+  width: 100%;
+  height: 7vh;
+  min-height: 3vh;
+  transition: all 0.2s ease-in-out;
+}
+.fields .alt-send-button {
+  width: 100%;
+  height: 7vh;
+  min-height: 3vh;
+  transition: all 0.2s ease-in-out;
+}
+.fields .send-text {
+  display: block;
+  margin-top: 2.5vh;
+  font: 700 3vh sans-serif;
+  letter-spacing: 0.2vw;
+}
+.fields .alt-send-button:hover {
+  transform: translate3d(0px, -6vh, 0px);
+}
+.fields .fa-paper-plane {
+  font-size: 3.7vh;
+  margin-top: 1vh;
+}
+.fields .btn {
+  color: #9cdef4;
+  background-color: dodgerblue;
+  border-color: #9cdef4;
+  border: 2px solid;
+  border-radius: 3vh;
+}
+@media (max-width: 800px) {
+  .fields form {
+    margin-left: 15vw;
+  }
+}

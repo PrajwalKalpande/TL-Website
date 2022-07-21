@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media screen and (min-width : 500px) { */
+  /* Eventcard1 css */
+  
+  .layer4{
+    display : flex;
+     width: 100%;
+     height: 45vw ;
+  }
+  .layer3{
+    width: 40vw;
+     height: 25vw ;
+      background-color: #08acf7 ;
+      position: absolute ;
+      top: 2vw ;
+      z-index: 1;
+      left: 2vw;
+  }
+  .layer2{
+    background-color: darkblue;
+     width: 80vw ;
+     height: 37vw ;
+     position: absolute;
+     right: 3vw;
+     z-index: 2;
+      display:flex;
+       justify-content:center;
+
+  }
+  .layer1{
+    position: absolute;
+     background-color: white;
+     width: 50vw;
+      height: 25vw;
+      bottom: 5vw;
+      left: 10vw;
+      z-index: 3;
+      box-shadow: 3px 3px 13px;
+  }
+  .heading{
+    color:white;
+    position: absolute;
+    top: 1.5vw;
+    font-size: 2.5vw;
+  }
+  .underline{
+    background-color: #05dff5;
+    width: 13vw;
+    height: 0.5vw;
+    position: absolute;
+    top: 5.75vw;
+    border-radius: 65px;
+  }
+  .btns {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 1em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    /* margin: 20px; */
+    /* padding: 0vw 2.8vw; */
+    padding: 0.75vw 2.5vw;
+    text-decoration: none;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btns:hover, .btns:focus {
+    color: rgb(42 132 255);
+    outline: 0;
+  }
+  .thirds {
+  border-color: #fff;
+  color: #fff;
+  box-shadow: 0 0 40px 40px rgb(42 132 255) inset, 0 0 0 0 rgb(42 132 255);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.thirds:hover {
+  box-shadow: 0 0 10px 0 rgb(42 132 255) inset, 0 0 10px 4px white;
+}
+.btns{
+  position: absolute;
+    bottom: 7vw;
+    right: 8.5vw;
+    width: 19vw;
+    font-size: 1vw;
+}
+.descpofevent{
+  position: absolute;
+  color: white;
+  font-size: 1.75vw;
+  top: 15vw;
+  right: 2vw;
+}
+
+/* Eventcard2 css */
+
+.layers4{
+  display : flex;
+   width: 100%;
+   height: 45vw ;
+}
+.layers3{
+  width: 40vw;
+   height: 25vw ;
+    background-color: #08acf7 ;
+    position: absolute ;
+    top: 2vw ;
+    z-index: 1;
+    right: 2vw;
+}
+.layers2{
+  background-color: darkblue;
+   width: 80vw ;
+   height: 37vw ;
+   position: absolute;
+   left: 3vw;
+   z-index: 2;
+    display:flex;
+     justify-content:center;
+
+}
+.layers1{
+  position: absolute;
+   background-color: white;
+   width: 50vw;
+    height: 25vw;
+    bottom: 5vw;
+    right: 10vw;
+    z-index: 3;
+    box-shadow: 3px 3px 13px;
+}
+.headings{
+  color:white;
+  position: absolute;
+  top: 1.5vw;
+  font-size: 2.5vw;
+}
+.underlines{
+  background-color: #05dff5;
+  width: 13vw;
+  height: 0.5vw;
+  position: absolute;
+  top: 5.75vw;
+  border-radius: 65px;
+}
+.btnss {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 1em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  /* margin: 20px; */
+  /* padding: 0vw 2.8vw; */
+  padding: 0.75vw 2.5vw;
+  text-decoration: none;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btnss:hover, .btnss:focus {
+  color: rgb(42 132 255);
+  outline: 0;
+}
+.thirds {
+border-color: #fff;
+color: #fff;
+box-shadow: 0 0 40px 40px rgb(42 132 255) inset, 0 0 0 0 rgb(42 132 255);
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
+}
+.thirds:hover {
+box-shadow: 0 0 10px 0 rgb(42 132 255) inset, 0 0 10px 4px white;
+}
+.btnss{
+position: absolute;
+  bottom: 7vw;
+  left: 8.5vw;
+  width: 19vw;
+  font-size: 1vw;
+}
+.descpofevents{
+position: absolute;
+color: white;
+font-size: 1.75vw;
+top: 15vw;
+left: 2vw;
+}
+

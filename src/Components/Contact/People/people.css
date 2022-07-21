@@ -1,0 +1,269 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+ 
+.content-section{
+ overflow-x:hidden;
+ 
+ background-size: 0 0;
+background-image: none;
+}
+
+ 
+  .col-space{
+    width: 4%;
+  }
+.fa{
+  font-size: 3vw;
+}
+
+hr{
+ border: 0;
+  margin: 1.35em auto;
+   
+ width: 100vw;
+  height: 10px;
+}
+
+.fade {
+  
+  color: red;
+  background-image: linear-gradient(
+    90deg,
+    rgba(red, 0),
+    rgba(red, 1) 50%,
+    rgba(red, 0) 100%);
+}
+p{font-weight: bold;
+font-size: medium;}
+h1{
+  color:rgba(3, 82, 132, 0.7)!important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+margin-bottom: 0;
+  text-transform: none;
+  color:  rgb(5, 24, 39);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.033em;
+  line-height: 1.5;
+
+}
+
+h4{
+  font-size: large;
+}
+a:link,
+a:active,
+a:visited{
+  color:rgba(255,255,255,1);
+}
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team{
+  margin:0px;
+}
+
+.team-member {
+  
+  overflow-y: hidden;
+  margin: 0px 0;
+  padding: 0;
+  height: 70vh;
+  
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+ 
+}
+
+.team-member figcaption p {
+  font-size: large;
+  
+}
+.team-member figcaption h4{
+  font-size: large;
+  display: inline-block;
+  position: relative;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.team-member figcaption hr{
+ overflow-x: hidden;
+ height: 0.6vh;
+ 
+
+}
+ 
+
+.team-member figcaption h4:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#102129;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.team-member figcaption h4:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+ 
+
+
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+.team-member h4 {
+  margin: 1vw 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 2vw;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(0,158,255,0.7);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgb(66, 52, 158);
+  filter:drop-shadow(.5rem .5rem 0.6rem rgb(255, 255, 255))
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
+@media screen and (max-width: 560px )  {
+  .team-member figcaption h4{
+    font-size: small;
+  }
+  .team-member figcaption p{
+    font-size: small;
+  }
+  h6{
+    font-size: large;
+  }
+  h1{
+    font-size: x-large;
+  }
+  h3{font-size: large;}
+  .team-member figcaption p{
+    font-size: x-small;
+  }
+  .fa{
+    font-size: 3vw;
+  }
+  .team-member{
+    height: 35vh;
+  }
+  
+  .team-member figcaption hr{
+    overflow-x: hidden;
+    height: 0.4vh;
+    margin-bottom: 0;
+    
+   
+   }
+  
+  
+}
+@media screen and (max-width: 850px) and (min-width:560px){
+  .team-member figcaption p{
+    font-size: small;
+  }.team-member{
+    height:50vh;
+  }
+  
+  
+}

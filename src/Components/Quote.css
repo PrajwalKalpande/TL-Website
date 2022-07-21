@@ -1,0 +1,54 @@
+ 
+.bluebg{
+  margin-top: 0;
+  overflow: hidden;
+position: relative;
+  background-color: #5c6cfb;
+  color: white;
+  display:flex;
+  flex-direction: row;
+  width:100%;
+
+   
+}
+ 
+
+.container-gears{
+ 
+  background-clip: padding-box;
+  width: 40vw;
+  height: 65vh;
+  margin-left: 68vw;
+  margin-top: 35vh;
+  position: absolute;
+  background-attachment: fixed;
+
+}
+
+ 
+
+.container-gears .gear1{
+  background: url('../assets/gear1.png') no-repeat;
+  width: 60vh;
+ height: 60vh;
+  margin-top: 5vh;
+ 
+  float: left;
+  margin-left: -3vw;
+  margin-right:0 ;
+}
+ 
+.container-gears .gear2{
+  background: url('../assets/gear2.png') no-repeat;
+  background-position: center;
+  position:relative;
+  height: 40vh;
+  width: 40vh;
+  margin-top: 44vh;
+ margin-left: 14vw;
+ 
+}
+
+ 
+ 
+ 
