@@ -1,5 +1,6 @@
 import React from "react";
 import "../Components/button.css";
+ 
 import { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 // import VideoPlayer from "react-video-js-player";
@@ -36,7 +37,7 @@ const Eventcard1 = () => {
   return (
     <>
       <div>
-        <div className="layer4" id="layer4" style={{ position: "relative" }}>
+        <div className="layer4" id="layer4" style={{ position: "relative"}}>
           <div className="layer3" id="layer3"></div>
           <div className="layer2" id="layer2">
             <h1 className="heading">Machine Training Session</h1>;

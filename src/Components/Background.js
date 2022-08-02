@@ -5,7 +5,7 @@ import imgx from "../assets/Image/Asset 11.png"
 const Background = () => {
   return (
     <>
-    <div style={{backgroundColor:"red"}}>
+    <div style={{height:"124vh"}}>
     <img src= {img}  alt="" width='100%'/>
     <div style={{position: "relative" ,top: "-51vw"}}>
         <img src={imgx} alt="" width="44%"/>

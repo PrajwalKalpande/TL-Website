@@ -36,7 +36,7 @@ export default function Quote() {
                 is<br></br>to save all the parts" 
                 </div>
 
-                <div style={{flex:1,fontSize: '2vw',marginBottom:"5vh" , paddingRight:'10vw',textAlign:'right'}} >
+                <div className='author' style={{flex:1,fontSize: '2vw',marginBottom:"5vh" , paddingRight:'10vw',textAlign:'right'}} >
                     -<b>Paul Erlich</b>
                 </div>
                 

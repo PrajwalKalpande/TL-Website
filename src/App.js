@@ -10,17 +10,21 @@ import People from './Components/Contact/People/People';
 import Form from './Components/Contact/Form/Form';
 import Quote from './Components/Quote';
 import Background from './Components/Background';
- 
+import Machines from './Components/Machines';
+import Centrado from './Components/Centrado';
 function App() {
   return (
     <> 
 
     <Navbar/>
     <Background/>
+    <Centrado/>
   <Quote/>
+
     <Eventcard1/>
 
     <Eventcard2/>
+    <Machines/>
     <People/>
     <Form/>
     

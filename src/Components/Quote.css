@@ -1,7 +1,6 @@
  
 .bluebg{
-  margin-top: 0;
-  overflow: hidden;
+ overflow: hidden;
 position: relative;
   background-color: #5c6cfb;
   color: white;
@@ -17,7 +16,7 @@ position: relative;
  
   background-clip: padding-box;
   width: 40vw;
-  height: 65vh;
+  height: 40vw;
   margin-left: 68vw;
   margin-top: 35vh;
   position: absolute;
@@ -29,9 +28,9 @@ position: relative;
 
 .container-gears .gear1{
   background: url('../assets/gear1.png') no-repeat;
-  width: 60vh;
- height: 60vh;
-  margin-top: 5vh;
+  width: 27vw;
+ height: 27vw;
+  margin-top: 3vw;
  
   float: left;
   margin-left: -3vw;
@@ -39,16 +38,46 @@ position: relative;
 }
  
 .container-gears .gear2{
+ 
   background: url('../assets/gear2.png') no-repeat;
   background-position: center;
   position:relative;
-  height: 40vh;
-  width: 40vh;
+  height: 20vw;
+  width: 20vw;
   margin-top: 44vh;
  margin-left: 14vw;
  
 }
 
+@media only screen and (max-width: 600px) {
+   .container-gears{
+    margin-top: 21vh;
+    margin-right: -9vw;
+   }
+   .container-gears .gear1{
+    width: 24vw;
+    margin-left: -5.9vw;
+    height: 24vw;
+    margin-top:0vh;
+
+   }
+   .container-gears .gear1{ 
+  
+    background-size:  contain;}
+    .container-gears .gear2{ 
+      width:7.5vw;
+      height:7.5vw;
+      margin-top: 19vw;
+      margin-right: 19vw;
+     margin-right: -2vw;
+   
+      background-size:  contain;}
+
+      .author{
+        margin-right: -5vw;
+        margin-top: 2vh;
+      }
+}
  
  
  

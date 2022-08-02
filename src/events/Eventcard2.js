@@ -1,7 +1,7 @@
 import React from "react";
 import "../Components/button.css";
 import { useState, useEffect } from "react";
-
+ 
 const Eventcard1 = () => {
   const [arrno, setarrno] = useState(2);
 
